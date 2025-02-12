@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\migue\\OneDrive\\Escritorio\\Api Antivirus\\Api-Antivirus\\Api-Antivirus.csproj": {}
+    "C:\\Users\\ASUS\\Documents\\Programacion\\VisualStudioClones\\Antivirus\\API-Antivirus\\Api-Antivirus\\Api-Antivirus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\migue\\OneDrive\\Escritorio\\Api Antivirus\\Api-Antivirus\\Api-Antivirus.csproj": {
+    "C:\\Users\\ASUS\\Documents\\Programacion\\VisualStudioClones\\Antivirus\\API-Antivirus\\Api-Antivirus\\Api-Antivirus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\migue\\OneDrive\\Escritorio\\Api Antivirus\\Api-Antivirus\\Api-Antivirus.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\Programacion\\VisualStudioClones\\Antivirus\\API-Antivirus\\Api-Antivirus\\Api-Antivirus.csproj",
         "projectName": "Api-Antivirus",
-        "projectPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\Api Antivirus\\Api-Antivirus\\Api-Antivirus.csproj",
-        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\migue\\OneDrive\\Escritorio\\Api Antivirus\\Api-Antivirus\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\Documents\\Programacion\\VisualStudioClones\\Antivirus\\API-Antivirus\\Api-Antivirus\\Api-Antivirus.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Documents\\Programacion\\VisualStudioClones\\Antivirus\\API-Antivirus\\Api-Antivirus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
