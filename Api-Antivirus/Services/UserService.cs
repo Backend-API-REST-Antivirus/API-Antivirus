@@ -6,9 +6,9 @@ namespace Api_Antivirus.Services
 {
     public class UserService : IUserService
     {
-       private readonly DataContext _context;   
+       private readonly ApplicationDbContext _context;   
 
-        public UserService (DataContext context)
+        public UserService (ApplicationDbContext context)
         {
             _context = context;
         }
