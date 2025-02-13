@@ -1,5 +1,9 @@
+using Api_Antivirus.Data;
+using Api_Antivirus.Services;
 using DotNetEnv;
 using Microsoft.AspNetCore.Hosting.StaticWebAssets;
+using Microsoft.EntityFrameworkCore;
+using Api_Antivirus.Models;
 
 Env.Load(); //Carga las variables de .env
 
@@ -35,6 +39,9 @@ else
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
