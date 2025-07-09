@@ -52,16 +52,19 @@ dotnet ef database update
 dotnet build
 dotnet run
 
-3️⃣ Abre tu navegador en:
+3️⃣ Abre tu navegador en (Local):
 
 http://localhost:5041/swagger/index.html
 
 Ahí verás la documentación interactiva (Swagger) con todos los endpoints.
 
-### 🔑 Credenciales
-Para las rutas que requieren autenticación con el rol **Administrador**, utiliza un JWT válido.  
-*(Puedes generarlo según tu implementación en el login, este README no incluye tokens reales por seguridad.)*
+4️⃣ Abre tu navegador en (Produccion):
 
+https://api-antivirus.duckdns.org/
+
+### 🔑 Credenciales
+Para las rutas que requieren autenticación con el rol **admin**, utiliza un JWT válido.  
+*(Puedes generarlo según tu implementación en el login, este README no incluye tokens reales por seguridad.)*
 ---
 
 ## 📋 Endpoints disponibles
@@ -152,7 +155,8 @@ Para las rutas que requieren autenticación con el rol **Administrador**, utiliz
 
 Cuando el servidor esté corriendo, abre:
 
-http://localhost:5041/swagger/index.html
+Local = http://localhost:5041/swagger/index.html
+Produccion = https://api-antivirus.duckdns.org/swagger/index.html
 
 Ahí puedes probar todos los endpoints, ver los parámetros esperados y las respuestas.
 
